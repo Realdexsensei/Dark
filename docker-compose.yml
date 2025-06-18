@@ -92,11 +92,6 @@ networks:
       - /var/log/pterodactyl/:/var/log/pterodactyl/
       - /tmp/pterodactyl/:/tmp/pterodactyl/
       - /etc/ssl/certs:/etc/ssl/certs:ro
-      # Optional: If upgrading from older daemon versions
-      # - /srv/daemon-data/:/srv/daemon-data/
-      # Optional: Required for SSL if using Let's Encrypt
-      # - /etc/letsencrypt/:/etc/letsencrypt/
-
 networks:
   wings0:
     name: wings0
